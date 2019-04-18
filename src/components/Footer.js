@@ -41,7 +41,7 @@ const Footer = (props) => (
                 <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
             </ul> */}
         </section>
-        <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p className="copyright">&copy; 2019 </p>
     </footer>
 )
 
