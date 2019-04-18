@@ -2,6 +2,7 @@
 // const configs = require("./site-config")
 
 module.exports = {
+  pathPrefix: "/GetEpona-site",
   siteMetadata: {
     title: "Gatsby Starter - Stellar by HTML5 UP",
     author: "Hunter Chang",
@@ -23,13 +24,13 @@ module.exports = {
     //'gatsby-plugin-sitemap',
    
     // from automatic app landing
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: `${__dirname}/src/images`,
+    //   },
+    // },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
