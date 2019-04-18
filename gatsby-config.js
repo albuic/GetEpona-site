@@ -4,9 +4,9 @@
 module.exports = {
   pathPrefix: "/GetEpona-site",
   siteMetadata: {
-    title: "GetEpona - Gatsby Starter",
-    author: "Chris Catoya",
-    description: "GetEpona website"
+    title: "gatsby-starter-stellar",
+    author: "Hunter Chang",
+    description: "Gatsby Starter - Stellar by HTML5 UP"
     //siteUrl: 'https://siteurl.com', 
    
    // site-config.js version
