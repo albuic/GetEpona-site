@@ -2,7 +2,8 @@
 // const configs = require("./site-config")
 
 module.exports = {
-  pathPrefix: "/GetEpona-site",
+  // pathPrefix: "/GetEpona-site",
+  pathPrefix: "/",
   siteMetadata: {
     title: "Get Epona",
     author: "Epona",
