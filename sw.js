@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-fd49feb49416b09636b9.js"
+    "url": "webpack-runtime-f9f725a86cdeea9710d4.js"
   },
   {
-    "url": "app-5388d33543fb44567def.js"
+    "url": "app-bddc262f3be9945ac25a.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-896a3f852b233b9ca05e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "6f0c89b8c7542f06ab51adb68d4d196a"
+    "revision": "3b7b9eeb9c28e59d3a6c892536a769b9"
   },
   {
-    "url": "styles.b534117362282ffaabe3.css"
+    "url": "styles.e32da2eaae172add1e64.css"
   },
   {
     "url": "styles-2f6d3342096a77b4637a.js"
@@ -76,7 +76,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/GetEpona-site/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -148,7 +148,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/GetEpona-site${pathname}`
+        return `${pathname}`
       } else {
         return pathname
       }
