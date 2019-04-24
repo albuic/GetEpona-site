@@ -19,7 +19,7 @@ const Header = (props) => (
    
     <header id="header" className="alt">    
         <span className="logo"><img src={logo} alt="Epona" width="50%" height="50%" /></span>
-        <p>The most productive writing, collaboration, and publishing tool. <br /> <a href="https://github.com/GetEpona">Open sourced</a> and ready for the distributed web.</p>
+        <p>The most productive writing, collaboration, and publishing tool. <br /> <a href="https://github.com/GetEpona">Open-source</a> and ready for the distributed web.</p>
    
    
             {/* From app landing
