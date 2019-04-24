@@ -7,10 +7,19 @@ import Img from "gatsby-image"
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import screenshot from '../assets/images/screenshot.png'
+import liberty from '../assets/images/liberty.png'
+import ftp from '../assets/images/ftp.png'
+import rabbit from '../assets/images/rabbit.png'
+import opensource from '../assets/images/opensource.png'
+import markdown from '../assets/images/markdown.png'
+
+
 import SEO from "../components/seo"
+import discordBot from '../components/Widget.js'
 
 //import "@fortawesome/fontawesome-free/css/all.min.css"
+
 
 
 class Index extends React.Component {
@@ -34,6 +43,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet title="GetEpona" />
+        <discordBot/>
 
         <Header />
 
@@ -43,7 +53,6 @@ class Index extends React.Component {
         >
         </Waypoint>
         <Nav sticky={this.state.stickyNav} />
-
         <div id="main">
 
           <section id="intro" className="main">
@@ -57,7 +66,7 @@ class Index extends React.Component {
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={screenshot} alt="" /></span>
             </div>
           </section>
 
@@ -67,17 +76,20 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <span><img src={markdown} alt="Markdown" width= "90" height="90"/></span>
+                {/* <span className="icon major style1 fa-copy"></span> */}
                 <h3>Markdown like a Boss</h3>
                 <p>Be super productive using modern markdown language.</p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
+              <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
+                {/* <span className="icon major style3 fa-copy"></span> */}
                 <h3>Censorship Resistent</h3>
                 <p>Everything you wrote is encrypted and you're in control of the keys.</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+              <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
+                {/* <span className="icon major style5 fa-diamond"></span> */}
                 <h3>Self-Hosted</h3>
                 <p>Epona is not cloud-based. It runs on a series of self-hosted and encrypted nodes.</p>
               </li>
@@ -97,24 +109,39 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Productive
+                <span><img src={rabbit} alt="Productive" width= "64" height="64"/></span>
+                {/* <span className="icon fa-code-fork"></span> */}
+                {/* <strong>5,120</strong>  */}
+                <br/>
+                Productive
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Markdown
+                <span><img src={markdown} alt="Markdown" width= "64" height="64"/></span>
+                {/* <span className="icon fa-folder-open-o"></span> */}
+                {/* <strong>8,192</strong>  */}
+                <br/>
+                Markdown
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Censorship Resistent
+                <span><img src={liberty} alt="Liberty" width= "64" height="64"/></span>
+                {/* <span className="icon fa-signal"></span> */}
+                {/* <strong>2,048</strong>  */}
+                <br/>
+                Censorship Resistent
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Self-hosted
+                <span><img src={ftp} alt="Self Hosted" width= "64" height="64"/></span>
+                {/* <span className="icon fa-laptop"></span> */}
+                {/* <strong>4,096</strong>  */}
+                <br/>
+                Self-Hosted
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Open-sourced
+                <span><img src={opensource} alt="Open Sourced" width= "64" height="64"/></span>
+                {/* <span className="icon fa-diamond"></span> */}
+                {/* <strong>1,024</strong>  */}
+                <br/>
+                Open-Source
               </li>
             </ul>
             <p className="content">Not just another writing app
@@ -143,7 +170,6 @@ Want to host your own node like it’s nobody’s business? You can.</p>
               </ul>
             </footer>
           </section>
-
         </div>
 
       </Layout>

@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../assets/images/logo.svg';
+import matrix from '../assets/images/matrix.png';
+import irc from '../assets/images/irc.png';
+import discord from '../assets/images/discordlogo.png';
+import github from '../assets/images/githublogo.png';
+
 
 const Footer = (props) => (
     <footer id="footer">
@@ -14,16 +18,12 @@ const Footer = (props) => (
         </section>
         <section>
             <h2>Join the Community</h2>
-            <dl className="alt">
-                <dt>GitHub</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
-                <dt>Matrix</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
-                <dt>IRC</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
-                <dt>Discord</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
-            </dl>
+            <ul className="icons"style={{ listStyleType: "none" }}>
+               <li><img src={github} alt="Github" width= "24" height="24"/> <a href="https://github.com/GetEpona/GetEpona-site/tree/master">GitHub</a></li>
+               <li><img src={matrix} alt="Matrix" width= "24" height="24"/> <a href="https://riot.im/app/#/room/#epona:getepona.com">Matrix</a></li>
+               <li><img src={irc} alt="IRC" width= "24" height="24"/> <a href="irc://freenode/epona">IRC</a></li>
+               <li><img src={discord} alt="Discord" width= "24" height="24"/> <a href="https://discord.gg/DrPFqa2">Discord</a></li>
+            </ul>
 {/*         
             <dl className="alt">
                 <dt>Address</dt>
@@ -41,7 +41,7 @@ const Footer = (props) => (
                 <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
             </ul> */}
         </section>
-        <p className="copyright">&copy; 2019 </p>
+        <p className="copyright">&copy; 2019 Epona</p>
     </footer>
 )
 

@@ -28,7 +28,8 @@
 
 // Palette.
 	$palette: (
-		bg:					#935d8c,
+		//bg:					#935d8c,
+		bg:					#646464,
 		fg:					rgba(255,255,255,0.65),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.5),
@@ -38,12 +39,15 @@
 		border2-bg:			rgba(255,255,255,0.2),
 
 		invert: (
-			bg:				#ffffff,
-			bg-alt:			#f7f7f7,
-			fg:				#636363,
-			fg-bold:		#636363,
+			bg:				#646464,
+			bg-alt:			#343434,
+			//fg:				#434343,
+			fg:				#FFFFFF,
+			//fg-bold:		#434343,
+			fg-bold:		#FFFFFF,
 			fg-light:		rgba(99,99,99,0.25),
-			border:			#dddddd,
+			//border:			#dddddd,
+			border:			rgba(222,222,222,0.25),
 			border-bg:		rgba(222,222,222,0.25),
 			border2:		#dddddd,
 			border2-bg:		rgba(222,222,222,0.5),
@@ -55,6 +59,8 @@
 		accent3:			#a89cc8,
 		accent4:			#9bb2e1,
 		accent5:			#8cc9f0,
-		bg1:				#e37682,
-		bg2:				#5f4d93
+		bg1:				#444444,
+		bg2:				#000000
+		//bg1:				#e37682,
+		//bg2:				#5f4d93
 	);

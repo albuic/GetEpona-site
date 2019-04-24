@@ -1,6 +1,7 @@
 import React from 'react'
+import logo from '../assets/images/epona-logo.png'
 
-import logo from '../assets/images/logo.svg';
+
 
 const Header = (props) => (
    
@@ -16,9 +17,8 @@ const Header = (props) => (
 //       <div className="headerBackground">
 //         <div className="container">
    
-    <header id="header" className="alt">
-        <span className="logo"><img src={logo} alt="" /></span>
-        <h1>Epona</h1>
+    <header id="header" className="alt">    
+        <span className="logo"><img src={logo} alt="Epona" width="50%" height="50%" /></span>
         <p>The most productive writing, collaboration, and publishing tool. <br /> <a href="https://github.com/GetEpona">Open sourced</a> and ready for the distributed web.</p>
    
    
@@ -157,7 +157,8 @@ const Header = (props) => (
               )}
             </div>
           </div>  */}
-      
+      {/* <WidgetBot/>  */}
+  
     </header> 
 )
 
