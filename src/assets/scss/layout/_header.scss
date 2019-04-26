@@ -6,6 +6,19 @@
 
 /* Header */
 
+
+	#download {
+
+		li {
+		display: inline-block;
+		padding-left: 2rem ;
+		}
+		h2 {
+			vertical-align: middle;
+		}
+	}
+
+
 	#header {
 		@include padding(5em, 5em, (0, 0, -2em, 0));
 		text-align: center;
@@ -109,9 +122,9 @@
 					opacity: 0;
 				}
 
-				.logo {
-					@include vendor('transform', 'scale(0.8) rotate(-30deg)');
-				}
+				// .logo {
+				// 	@include vendor('transform', 'scale(0.8) rotate(-30deg)');
+				// }
 			}
 		}
 	}

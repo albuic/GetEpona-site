@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Nav from './Nav'
+
 
 import matrix from '../assets/images/matrix.png';
 import irc from '../assets/images/irc.png';
@@ -32,8 +34,8 @@ const Footer = (props) => (
                 <dd>(000) 000-0000 x 0000</dd>
                 <dt>Email</dt>
                 <dd><a href="#">information@untitled.tld</a></dd>
-            </dl> */}
-            {/* <ul className="icons">
+            </dl> 
+           <ul className="icons">
                 <li><a href="#" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
                 <li><a href="#" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
                 <li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>

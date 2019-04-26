@@ -55,24 +55,42 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
         <div id="main">
 
-          <section id="intro" className="main">
+         <section id="intro" className="main special">
+            <header className="major">
+            <h2>Writing Made Modern</h2>
+            <div className="screenshot">
+            <img src={screenshot} alt="Epona Screenshot" width="75%" height="75%"/>
+              <p>Epona is a modern writing tool for effective and privacy conscious people. It is censorship resistent and offers productivity shortcuts.</p>
+              </div>
+            </header>
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/generic" className="button">Learn More</Link></li>
+              </ul>
+            </footer>
+          </section> 
+
+          {/* <section id="intro" className="main special">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
                   <h2>Writing Made Modern</h2>
                 </header>
                 <p>Epona is a modern writing tool for effective and privacy conscious people. It is censorship resistent and offers productivity shortcuts.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
+                  <ul className="actions">
+                    <li><Link to="/generic" className="button">Learn More</Link></li>
+                  </ul>
               </div>
-              <span className="image"><img src={screenshot} alt="" /></span>
+                <div align="right">
+                 <img src={screenshot} alt="Epona Screenshot" width="75%" height="75%"/>
+                </div>
             </div>
-          </section>
+          </section>  */}
 
+{/* Fast and Productive */}
           <section id="first" className="main special">
             <header className="major">
-              <h2>Insanely Powerful</h2>
+              <h2>Productive</h2>
             </header>
             <ul className="features">
               <li>
@@ -101,7 +119,39 @@ class Index extends React.Component {
             </footer>
           </section>
 
+{/* Censorship Resistent */}
           <section id="second" className="main special">
+            <header className="major">
+              <h2>Censorship Resistent</h2>
+            </header>
+            <ul className="features">
+              <li>
+                <span><img src={markdown} alt="Markdown" width= "90" height="90"/></span>
+                {/* <span className="icon major style1 fa-copy"></span> */}
+                <h3>Markdown like a Boss</h3>
+                <p>Be super productive using modern markdown language.</p>
+              </li>
+              <li>
+              <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
+                {/* <span className="icon major style3 fa-copy"></span> */}
+                <h3>Censorship Resistent</h3>
+                <p>Everything you wrote is encrypted and you're in control of the keys.</p>
+              </li>
+              <li>
+              <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
+                {/* <span className="icon major style5 fa-diamond"></span> */}
+                <h3>Self-Hosted</h3>
+                <p>Epona is not cloud-based. It runs on a series of self-hosted and encrypted nodes.</p>
+              </li>
+            </ul>
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/generic" className="button">Learn More</Link></li>
+              </ul>
+            </footer>
+          </section>
+
+          {/* <section id="third" className="main special">
             <header className="major">
               <h2>Bleeding Edge</h2>
               <p>Epona combines the latest technologies in decentralized tech and encryption <br />
@@ -110,36 +160,36 @@ class Index extends React.Component {
             <ul className="statistics">
               <li className="style1">
                 <span><img src={rabbit} alt="Productive" width= "64" height="64"/></span>
-                {/* <span className="icon fa-code-fork"></span> */}
-                {/* <strong>5,120</strong>  */}
+               <span className="icon fa-code-fork"></span>
+                <strong>5,120</strong>  
                 <br/>
                 Productive
               </li>
               <li className="style2">
                 <span><img src={markdown} alt="Markdown" width= "64" height="64"/></span>
-                {/* <span className="icon fa-folder-open-o"></span> */}
-                {/* <strong>8,192</strong>  */}
+                <span className="icon fa-folder-open-o"></span> 
+               <strong>8,192</strong>  
                 <br/>
                 Markdown
               </li>
               <li className="style3">
                 <span><img src={liberty} alt="Liberty" width= "64" height="64"/></span>
-                {/* <span className="icon fa-signal"></span> */}
-                {/* <strong>2,048</strong>  */}
+              <span className="icon fa-signal"></span> 
+                <strong>2,048</strong>  
                 <br/>
                 Censorship Resistent
               </li>
               <li className="style4">
                 <span><img src={ftp} alt="Self Hosted" width= "64" height="64"/></span>
-                {/* <span className="icon fa-laptop"></span> */}
-                {/* <strong>4,096</strong>  */}
+                <span className="icon fa-laptop"></span> 
+                 <strong>4,096</strong>  
                 <br/>
                 Self-Hosted
               </li>
               <li className="style5">
                 <span><img src={opensource} alt="Open Sourced" width= "64" height="64"/></span>
-                {/* <span className="icon fa-diamond"></span> */}
-                {/* <strong>1,024</strong>  */}
+                <span className="icon fa-diamond"></span> 
+                <strong>1,024</strong>  
                 <br/>
                 Open-Source
               </li>
@@ -155,13 +205,44 @@ Want to host your own node like it’s nobody’s business? You can.</p>
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
-          </section>
+          </section>  */}
 
-          <section id="cta" className="main special">
+<section id="cta" className="main special">
+            <header className="major">
+              <h2>Open Source</h2>
+            </header>
+            <ul className="features">
+              <li>
+                <span><img src={markdown} alt="Markdown" width= "90" height="90"/></span>
+                {/* <span className="icon major style1 fa-copy"></span> */}
+                <h3>Textile</h3>
+                <p>Be super productive using modern markdown language.</p>
+              </li>
+              <li>
+              <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
+                {/* <span className="icon major style3 fa-copy"></span> */}
+                <h3>IPFS</h3>
+                <p>Everything you wrote is encrypted and you're in control of the keys.</p>
+              </li>
+              <li>
+              <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
+                {/* <span className="icon major style5 fa-diamond"></span> */}
+                <h3>Self-Hosted</h3>
+                <p>Epona is not cloud-based. It runs on a series of self-hosted and encrypted nodes.</p>
+              </li>
+            </ul>
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/generic" className="button">Learn More</Link></li>
+              </ul>
+            </footer>
+          </section>
+          {/* <section id="cta" className="main special">
             <header className="major">
               <h2>Start Writing Now</h2>
               <p>Use the best writing tool.<br />
-              Distributed tech is here. Start writing like it.</p>
+              Distributed tech is here. Start writing like it.
+              </p>
             </header>
             <footer className="major">
               <ul className="actions">
@@ -169,7 +250,7 @@ Want to host your own node like it’s nobody’s business? You can.</p>
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
-          </section>
+          </section> */}
         </div>
 
       </Layout>

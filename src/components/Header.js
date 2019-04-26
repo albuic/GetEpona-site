@@ -1,7 +1,11 @@
 import React from 'react'
 import logo from '../assets/images/epona-logo.png'
 
-
+import Linux from '../assets/images/linux_500px.png'
+import Windows from '../assets/images/windows8_filled_500px.png'
+import MacOS from '../assets/images/mac_os_filled_500px.png'
+import iOS from '../assets/images/ios_logo_filled_500px.png'
+import Android from '../assets/images/android_filled_500px.png'
 
 const Header = (props) => (
    
@@ -19,9 +23,21 @@ const Header = (props) => (
    
     <header id="header" className="alt">    
         <span className="logo"><img src={logo} alt="Epona" width="50%" height="50%" /></span>
-        <p>The most productive writing, collaboration, and publishing tool. <br /> <a href="https://github.com/GetEpona">Open-source</a> and ready for the distributed web.</p>
-   
-   
+        <p>
+          The most productive writing tool. All your notes, to dos, ideas, drafts, and pastebin in one place.
+        </p>
+          <ul id="download" className ="download">
+            <li>
+                <h2>
+                  Coming soon on 
+                </h2>
+            </li>
+            <li> <img src={Windows} alt="Windows Download" width="48" height="48"/> </li>
+            <li><img src={MacOS} alt="Epona" width="48" height="48"  padding="24"/></li>
+            <li><img src={Linux} alt="Epona" width="48" height="48"  padding="24"/></li>
+            <li><img src={iOS} alt="Epona" width="48" height="48" /></li>
+            <li><img src={Android} alt="Epona" width="48" height="48"/></li>
+          </ul>
             {/* From app landing
             
             <div className="logo">
@@ -158,7 +174,6 @@ const Header = (props) => (
             </div>
           </div>  */}
       {/* <WidgetBot/>  */}
-  
     </header> 
 )
 
