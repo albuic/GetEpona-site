@@ -13,6 +13,8 @@ import ftp from '../assets/images/ftp.png'
 import rabbit from '../assets/images/rabbit.png'
 import opensource from '../assets/images/opensource.png'
 import markdown from '../assets/images/markdown.png'
+import enter from '../assets/images/enter_key_filled_500px.png'
+import encrypted from '../assets/images/password_filled_500px.png'
 
 
 import SEO from "../components/seo"
@@ -56,11 +58,12 @@ class Index extends React.Component {
         <div id="main">
 
          <section id="intro" className="main special">
-            <header className="major">
-            <h2>Writing Made Modern</h2>
+            <header>
+            {/* <header className="major"> */}
+            <h1>Writing Made Modern</h1>
             <div className="screenshot">
             <img src={screenshot} alt="Epona Screenshot" width="75%" height="75%"/>
-              <p>Epona is a modern writing tool for effective and privacy conscious people. It is censorship resistent and offers productivity shortcuts.</p>
+              <p>Epona is a super fast way to write with productivity shortcuts on IPFS. Draft notes, create markdown files, or share a paste bin fully encrypted without any hassles.</p>
               </div>
             </header>
             <footer className="major">
@@ -89,8 +92,9 @@ class Index extends React.Component {
 
 {/* Fast and Productive */}
           <section id="first" className="main special">
-            <header className="major">
-              <h2>Productive</h2>
+            {/* <header className="major"> */}
+             <header>
+              <h1>Raise Your APM</h1>
             </header>
             <ul className="features">
               <li>
@@ -100,16 +104,16 @@ class Index extends React.Component {
                 <p>Be super productive using modern markdown language.</p>
               </li>
               <li>
-              <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
+              <span><img src={enter} alt="Quick" width= "90" height="90"/></span>
                 {/* <span className="icon major style3 fa-copy"></span> */}
-                <h3>Censorship Resistent</h3>
-                <p>Everything you wrote is encrypted and you're in control of the keys.</p>
+                <h3>Gmail-Like Shortcuts</h3>
+                <p>So many keyboard shortcuts, it feels like a Zerg rush.</p>
               </li>
               <li>
-              <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
+              <span><img src={rabbit} alt="Self-Hosted" width= "90" height="90"/></span>
                 {/* <span className="icon major style5 fa-diamond"></span> */}
-                <h3>Self-Hosted</h3>
-                <p>Epona is not cloud-based. It runs on a series of self-hosted and encrypted nodes.</p>
+                <h3>Fast App Response</h3>
+                <p>Loads faster than an SR-71.</p>
               </li>
             </ul>
             <footer className="major">
@@ -121,27 +125,22 @@ class Index extends React.Component {
 
 {/* Censorship Resistent */}
           <section id="second" className="main special">
-            <header className="major">
-              <h2>Censorship Resistent</h2>
+            {/* <header className="major"> */}
+            <header>
+              <h1>Secure</h1>
             </header>
             <ul className="features">
               <li>
-                <span><img src={markdown} alt="Markdown" width= "90" height="90"/></span>
+                <span><img src={encrypted} alt="Markdown" width= "90" height="90"/></span>
                 {/* <span className="icon major style1 fa-copy"></span> */}
-                <h3>Markdown like a Boss</h3>
-                <p>Be super productive using modern markdown language.</p>
+                <h3>Encrypted</h3>
+                <p>Everything you write is encrypted and you're in control of the keys. For your eyes only.</p>
               </li>
               <li>
               <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
                 {/* <span className="icon major style3 fa-copy"></span> */}
                 <h3>Censorship Resistent</h3>
-                <p>Everything you wrote is encrypted and you're in control of the keys.</p>
-              </li>
-              <li>
-              <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
-                {/* <span className="icon major style5 fa-diamond"></span> */}
-                <h3>Self-Hosted</h3>
-                <p>Epona is not cloud-based. It runs on a series of self-hosted and encrypted nodes.</p>
+                <p>Content can easily be shared to additional nodes so there's no single point of failure.</p>
               </li>
             </ul>
             <footer className="major">
@@ -208,28 +207,30 @@ Want to host your own node like it’s nobody’s business? You can.</p>
           </section>  */}
 
 <section id="cta" className="main special">
-            <header className="major">
-              <h2>Open Source</h2>
+            <header>
+            {/* <header className="major"> */}
+              <h1>Open Source</h1>
             </header>
             <ul className="features">
               <li>
-                <span><img src={markdown} alt="Markdown" width= "90" height="90"/></span>
+                <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
+                  {/* <span className="icon major style5 fa-diamond"></span> */}
+                  <h3>Self-Hosted</h3>
+                  <p>Epona runs on a series of self-hosted nodes. Anyone an be a server. You are the platform.</p>
+              </li>
+              <li>
+                <span><img src={opensource} alt="Markdown" width= "90" height="90"/></span>
                 {/* <span className="icon major style1 fa-copy"></span> */}
-                <h3>Textile</h3>
-                <p>Be super productive using modern markdown language.</p>
-              </li>
-              <li>
-              <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
-                {/* <span className="icon major style3 fa-copy"></span> */}
                 <h3>IPFS</h3>
-                <p>Everything you wrote is encrypted and you're in control of the keys.</p>
+                <p>Epona uses IPFS's content addressable hashing to make mirroring and mesh networking easy.</p>
               </li>
               <li>
-              <span><img src={ftp} alt="Self-Hosted" width= "90" height="90"/></span>
-                {/* <span className="icon major style5 fa-diamond"></span> */}
-                <h3>Self-Hosted</h3>
-                <p>Epona is not cloud-based. It runs on a series of self-hosted and encrypted nodes.</p>
+              <span><img src={opensource} alt="Liberty" width= "90" height="90"/></span>
+                {/* <span className="icon major style3 fa-copy"></span> */}
+                <h3>Textile</h3>
+                <p>We use the best library for distributed web applications.</p>
               </li>
+              
             </ul>
             <footer className="major">
               <ul className="actions">

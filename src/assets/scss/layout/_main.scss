@@ -11,7 +11,7 @@
 		border-radius: _size(border-radius-main);
 
 		> .main {
-			@include padding(5em, 5em);
+			@include padding(3em, 3em);
 			border-top: solid 1px _palette(invert, border);
 
 			&:first-child {
@@ -59,7 +59,7 @@
 
 		@include breakpoint(small) {
 			> .main {
-				@include padding(3em, 2em);
+				@include padding(3em, 3em);
 
 				> .image.main:first-child {
 					margin: -3em 0 2em -2em;

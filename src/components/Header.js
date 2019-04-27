@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/epona-logo.png'
 
-import Linux from '../assets/images/linux_500px.png'
+import Linux from '../assets/images/linux_filled_500px.png'
 import Windows from '../assets/images/windows8_filled_500px.png'
 import MacOS from '../assets/images/mac_os_filled_500px.png'
 import iOS from '../assets/images/ios_logo_filled_500px.png'
