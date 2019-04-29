@@ -4,6 +4,25 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+				* {
+				  box-sizing: border-box;
+				}
+
+				/* Create two equal columns that floats next to each other */
+				.column {
+				  float: left;
+				  width: 50%;
+				  padding: 10px;
+				}
+
+				/* Clear floats after the columns */
+				.row:after {
+				  content: "";
+				  display: table;
+				  clear: both;
+				}
+
+
 /* Main */
 
 	#main {

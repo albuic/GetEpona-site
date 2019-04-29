@@ -11,11 +11,10 @@ import screenshot from '../assets/images/screenshot.png'
 import liberty from '../assets/images/liberty.png'
 import ftp from '../assets/images/ftp.png'
 import rabbit from '../assets/images/rabbit.png'
-import opensource from '../assets/images/opensource.png'
 import markdown from '../assets/images/markdown.png'
 import enter from '../assets/images/enter_key_filled_500px.png'
-import encrypted from '../assets/images/password_filled_500px.png'
-
+import ipfslogo from '../assets/images/ipfs-logo.png'
+import textilelogo from '../assets/images/textile-logo.png'
 
 import SEO from "../components/seo"
 import discordBot from '../components/Widget.js'
@@ -96,26 +95,14 @@ class Index extends React.Component {
              <header>
               <h1>Raise Your APM</h1>
             </header>
-            <ul className="features">
-              <li>
-                <span><img src={markdown} alt="Markdown" width= "90" height="90"/></span>
-                {/* <span className="icon major style1 fa-copy"></span> */}
-                <h3>Markdown like a Boss</h3>
-                <p>Be super productive using modern markdown language.</p>
-              </li>
-              <li>
-              <span><img src={enter} alt="Quick" width= "90" height="90"/></span>
-                {/* <span className="icon major style3 fa-copy"></span> */}
-                <h3>Gmail-Like Shortcuts</h3>
-                <p>So many keyboard shortcuts, it feels like a Zerg rush.</p>
-              </li>
-              <li>
-              <span><img src={rabbit} alt="Self-Hosted" width= "90" height="90"/></span>
-                {/* <span className="icon major style5 fa-diamond"></span> */}
-                <h3>Fast App Response</h3>
-                <p>Loads faster than an SR-71.</p>
-              </li>
-            </ul>
+
+               <div class="row">
+                <div class="column"><h3>Write Markdown like a boss. No need for fancy syntax, you can edit inline and get beautiful docs right away. So many keyboard shortcuts you're going to type like a Starcraft pro.</h3></div>
+                <div class="column"><img src={screenshot} alt="Epona Screenshot" width="75%" height="75%"/></div>
+              </div> 
+
+
+
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/generic" className="button">Learn More</Link></li>
@@ -123,26 +110,19 @@ class Index extends React.Component {
             </footer>
           </section>
 
-{/* Censorship Resistent */}
+{/* Resilient */}
           <section id="second" className="main special">
             {/* <header className="major"> */}
             <header>
-              <h1>Secure</h1>
+              <h1>Resilient</h1>
             </header>
-            <ul className="features">
-              <li>
-                <span><img src={encrypted} alt="Markdown" width= "90" height="90"/></span>
-                {/* <span className="icon major style1 fa-copy"></span> */}
-                <h3>Encrypted</h3>
-                <p>Everything you write is encrypted and you're in control of the keys. For your eyes only.</p>
-              </li>
-              <li>
-              <span><img src={liberty} alt="Liberty" width= "90" height="90"/></span>
-                {/* <span className="icon major style3 fa-copy"></span> */}
-                <h3>Censorship Resistent</h3>
-                <p>Content can easily be shared to additional nodes so there's no single point of failure.</p>
-              </li>
-            </ul>
+
+<div align="left">            
+                <h2>Epona runs on a series of self-hosted nodes. These are powered by Textile.io, which is acts as a digital wallet for fully encrypted, decentralized content. Content is stored using the IPFS protocol, which makes Epona links unique and permanent. This makes Epona extremely resilient: we do not have your keys, and there is no single point of failure. You are the platform.</h2>
+                <h2>Epona uses IPFS for content addressable hashing to make mirroring and mesh networking easy.</h2>
+                <h2>We use Textile, the best library for distributed web applications.</h2>
+</div>
+
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/generic" className="button">Learn More</Link></li>
@@ -176,7 +156,7 @@ class Index extends React.Component {
               <span className="icon fa-signal"></span> 
                 <strong>2,048</strong>  
                 <br/>
-                Censorship Resistent
+                Resilient
               </li>
               <li className="style4">
                 <span><img src={ftp} alt="Self Hosted" width= "64" height="64"/></span>
@@ -219,13 +199,13 @@ Want to host your own node like it’s nobody’s business? You can.</p>
                   <p>Epona runs on a series of self-hosted nodes. Anyone an be a server. You are the platform.</p>
               </li>
               <li>
-                <span><img src={opensource} alt="Markdown" width= "90" height="90"/></span>
+                <span><img src={ipfslogo} alt="Markdown" width= "225" height="90"/></span>
                 {/* <span className="icon major style1 fa-copy"></span> */}
                 <h3>IPFS</h3>
                 <p>Epona uses IPFS's content addressable hashing to make mirroring and mesh networking easy.</p>
               </li>
               <li>
-              <span><img src={opensource} alt="Liberty" width= "90" height="90"/></span>
+              <span><img src={textilelogo} alt="Liberty" width= "90" height="90"/></span>
                 {/* <span className="icon major style3 fa-copy"></span> */}
                 <h3>Textile</h3>
                 <p>We use the best library for distributed web applications.</p>

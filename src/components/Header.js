@@ -32,11 +32,11 @@ const Header = (props) => (
                   Coming soon on 
                 </h2>
             </li>
-            <li> <img src={Windows} alt="Windows Download" width="48" height="48"/> </li>
-            <li><img src={MacOS} alt="Epona" width="48" height="48"  padding="24"/></li>
-            <li><img src={Linux} alt="Epona" width="48" height="48"  padding="24"/></li>
-            <li><img src={iOS} alt="Epona" width="48" height="48" /></li>
-            <li><img src={Android} alt="Epona" width="48" height="48"/></li>
+            <li> <img src={Windows} alt="Windows Download" width="36" height="36"/> </li>
+            <li><img src={MacOS} alt="Epona" width="36" height="36"  padding="6"/></li>
+            <li><img src={Linux} alt="Epona" width="36" height="36"  padding="6"/></li>
+            <li><img src={iOS} alt="Epona" width="36" height="36" padding="6"/></li>
+            <li><img src={Android} alt="Epona" width="36" height="36"/></li>
           </ul>
             {/* From app landing
             
