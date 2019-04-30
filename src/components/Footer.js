@@ -7,16 +7,25 @@ import matrix from '../assets/images/matrix.png';
 import irc from '../assets/images/irc.png';
 import discord from '../assets/images/discordlogo.png';
 import github from '../assets/images/githublogo.png';
+import WidgetBot from '@widgetbot/react-embed'
 
 
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Powered by Textile</h2>
-            <p>Epona runs on Textile's open-sourced technology. It supports offline and mobile-first usage of IPFS.</p>
-            <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-            </ul>
+               <WidgetBot
+          server="475789330380488707"
+          channel="509533264206233610"
+          shard="https://cl1.widgetbot.io"
+          height="400"
+          width="400"
+          onAPI={api => {
+            /*api.on('signIn', user => {
+            console.log(`Guest signed in as ${user.name}`, user)
+            api.emit('sendMessage', 'Hello world')
+            })*/
+          }}
+        />
         </section>
         <section>
             <h2>Join the Community</h2>

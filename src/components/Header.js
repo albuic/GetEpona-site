@@ -173,7 +173,6 @@ const Header = (props) => (
               )}
             </div>
           </div>  */}
-      {/* <WidgetBot/>  */}
     </header> 
 )
 
