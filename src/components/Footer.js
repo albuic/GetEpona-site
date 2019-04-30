@@ -8,12 +8,16 @@ import irc from '../assets/images/irc.png';
 import discord from '../assets/images/discordlogo.png';
 import github from '../assets/images/githublogo.png';
 import WidgetBot from '@widgetbot/react-embed'
-
+import GitHubButton from 'react-github-btn'
 
 const Footer = (props) => (
     <footer id="footer">
+     <div><h2>Join the Community</h2></div>
         <section>
-               <WidgetBot
+        <GitHubButton href="https://github.com/GetEpona/Epona-js" data-size="large" data-show-count="true" aria-label="Star GetEpona/Epona-js on GitHub">Star</GitHubButton>
+        </section>
+        <section>
+        <WidgetBot
           server="475789330380488707"
           channel="509533264206233610"
           shard="https://cl1.widgetbot.io"
@@ -26,9 +30,6 @@ const Footer = (props) => (
             })*/
           }}
         />
-        </section>
-        <section>
-            <h2>Join the Community</h2>
             <ul className="icons"style={{ listStyleType: "none" }}>
                <li><img src={github} alt="Github" width= "24" height="24"/> <a href="https://github.com/GetEpona/GetEpona-site/tree/master">GitHub</a></li>
                <li><img src={matrix} alt="Matrix" width= "24" height="24"/> <a href="https://riot.im/app/#/room/#epona:getepona.com">Matrix</a></li>

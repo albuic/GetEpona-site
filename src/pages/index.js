@@ -8,11 +8,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import screenshot from '../assets/images/screenshot.png'
-import liberty from '../assets/images/liberty.png'
 import ftp from '../assets/images/ftp.png'
-import rabbit from '../assets/images/rabbit.png'
-import markdown from '../assets/images/markdown.png'
-import enter from '../assets/images/enter_key_filled_500px.png'
 import ipfslogo from '../assets/images/ipfs-logo.png'
 import textilelogo from '../assets/images/textile-logo.png'
 
@@ -72,11 +68,8 @@ class Index extends React.Component {
             </header>
             <footer className="major">
               <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
+                <li><Link to="/generic" className="button special">Get Started</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -125,11 +118,8 @@ class Index extends React.Component {
 
             <footer className="major">
               <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
+                <li><Link to="/generic" className="button special">Get Started</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -159,14 +149,10 @@ class Index extends React.Component {
                 applications.
               </h2>
             </div>
-
             <footer className="major">
               <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
+                <li><Link to="/generic" className="button special">Get Started</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -266,11 +252,8 @@ Want to host your own node like it’s nobody’s business? You can.</p>
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
+                <li><Link to="/generic" className="button special">Get Started</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
