@@ -42,7 +42,7 @@ const Footer = (props) => (
                 <li><img src={irc} alt="IRC" width= "24" height="24"/> <a href="irc://freenode/epona">IRC</a></li>
                 <li><img src={discord} alt="Discord" width= "24" height="24"/> <a href="https://discord.gg/DrPFqa2">Discord</a></li>
             </ul>
-            {/* <DiscordBot/> */}
+             <DiscordBot/> 
 
         </div>
     </div>
