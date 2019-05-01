@@ -14,7 +14,6 @@ import textilelogo from '../assets/images/textile-logo.png'
 
 import SEO from '../components/seo'
 
-import WidgetBot from '@widgetbot/react-embed'
 
 //import "@fortawesome/fontawesome-free/css/all.min.css"
 

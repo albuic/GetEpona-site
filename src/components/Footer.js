@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Nav from './Nav'
+import DiscordBot from './DiscordBot'
 
+import WidgetBot from '@widgetbot/react-embed'
+import GitHubButton from 'react-github-btn'
 
 import matrix from '../assets/images/matrix.png';
 import irc from '../assets/images/irc.png';
 import discord from '../assets/images/discordlogo.png';
-import github from '../assets/images/githublogo.png';
-import WidgetBot from '@widgetbot/react-embed'
-import GitHubButton from 'react-github-btn'
+
 
 const Footer = (props) => (
     
@@ -41,20 +42,8 @@ const Footer = (props) => (
                 <li><img src={irc} alt="IRC" width= "24" height="24"/> <a href="irc://freenode/epona">IRC</a></li>
                 <li><img src={discord} alt="Discord" width= "24" height="24"/> <a href="https://discord.gg/DrPFqa2">Discord</a></li>
             </ul>
-            <WidgetBot
-                server="475789330380488707"
-                channel="509533264206233610"
-                shard="https://cl1.widgetbot.io"
-                height="800"
-                width="450"
-                onAPI={api => {
-                        /*api.on('signIn', user => {
-                        console.log(`Guest signed in as ${user.name}`, user)
-                        api.emit('sendMessage', 'Hello world')
-                        })*/
-                }}
-            />
-           
+            {/* <DiscordBot/> */}
+
         </div>
     </div>
                  
