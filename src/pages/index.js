@@ -220,7 +220,7 @@ Want to host your own node like it’s nobody’s business? You can.</p>
             <ul className="features">
               <li>
                 <span>
-                  <img src={ftp} alt="Self-Hosted" width="90" height="90" />
+                  <img src={ftp} alt="Self-Hosted" width="90px" height="90px" />
                 </span>
                 {/* <span className="icon major style5 fa-diamond"></span> */}
                 <h3>Self-Hosted</h3>
@@ -231,7 +231,7 @@ Want to host your own node like it’s nobody’s business? You can.</p>
               </li>
               <li>
                 <span>
-                  <img src={ipfslogo} alt="Markdown" width="225" height="90" />
+                  <img src={ipfslogo} alt="IPFS" width="225px" height="90px" />
                 </span>
                 {/* <span className="icon major style1 fa-copy"></span> */}
                 <h3>IPFS</h3>
@@ -242,7 +242,7 @@ Want to host your own node like it’s nobody’s business? You can.</p>
               </li>
               <li>
                 <span>
-                  <img src={textilelogo} alt="Liberty" width="90" height="90" />
+                  <img src={textilelogo} alt="Textile" width="90px" height="90px" />
                 </span>
                 {/* <span className="icon major style3 fa-copy"></span> */}
                 <h3>Textile</h3>
