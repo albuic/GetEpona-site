@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import copy from '../../assets/images/copy_500px.png'
  
-
 class CopyBTC extends React.Component {
   state = {
     value: '1LrufiuFTzn2ZzKsgdPH1K1AKZDenCeYrQ',
@@ -24,7 +22,7 @@ class CopyBTC extends React.Component {
  
         <CopyToClipboard text={this.state.value}
           onCopy={() => this.setState({copied: true})}>
-          <button min-width="1rem"><img src={copy} alt="copy" width= "16px" height="16px"/></button>
+          <img src={copy} alt="copy" width= "16px" height="16px"/>
         </CopyToClipboard>
  
         {this.state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}

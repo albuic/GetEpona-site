@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import copy from '../../assets/images/copy_500px.png'
  
+
 class CopyBCH extends React.Component {
   state = {
     value: '192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2',
@@ -21,7 +23,7 @@ class CopyBCH extends React.Component {
  
         <CopyToClipboard text={this.state.value}
           onCopy={() => this.setState({copied: true})}>
-          <button>Copy</button>
+          <img src={copy} alt="copy" width= "16px" height="16px"/>
         </CopyToClipboard>
  
         {this.state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}
@@ -30,8 +32,8 @@ class CopyBCH extends React.Component {
   }
 }
  
-const appRoot = document.createElement('div');
-document.body.appendChild(appRoot);
-ReactDOM.render(<CopyBCH />, appRoot);
+// const appRoot = document.createElement('div');
+// document.body.appendChild(appRoot);
+// ReactDOM.render(<CopyBCH />, appRoot);
 
 export default CopyBCH

@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import copy from '../../assets/images/copy_500px.png'
  
+
 class CopyADA extends React.Component {
   state = {
     value: 'DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ',
@@ -21,7 +23,7 @@ class CopyADA extends React.Component {
  
         <CopyToClipboard text={this.state.value}
           onCopy={() => this.setState({copied: true})}>
-          <button>Copy</button>
+          <img src={copy} alt="copy" width= "16px" height="16px"/>
         </CopyToClipboard>
  
         {this.state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}
@@ -30,8 +32,8 @@ class CopyADA extends React.Component {
   }
 }
  
-const appRoot = document.createElement('div');
-document.body.appendChild(appRoot);
-ReactDOM.render(<CopyADA />, appRoot);
+// const appRoot = document.createElement('div');
+// document.body.appendChild(appRoot);
+// ReactDOM.render(<CopyADA />, appRoot);
 
 export default CopyADA

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
- 
+import copy from '../../assets/images/copy_500px.png'
+
 class CopyNEO extends React.Component {
   state = {
     value: 'AKxoCE8YjP7jyQcDCxEXHuFvtWh74Km64g',
@@ -21,7 +22,7 @@ class CopyNEO extends React.Component {
  
         <CopyToClipboard text={this.state.value}
           onCopy={() => this.setState({copied: true})}>
-          <button>Copy</button>
+          <img src={copy} alt="copy" width= "16px" height="16px"/>
         </CopyToClipboard>
  
         {this.state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}
@@ -30,8 +31,8 @@ class CopyNEO extends React.Component {
   }
 }
  
-const appRoot = document.createElement('div');
-document.body.appendChild(appRoot);
-ReactDOM.render(<CopyNEO />, appRoot);
+// const appRoot = document.createElement('div');
+// document.body.appendChild(appRoot);
+// ReactDOM.render(<CopyNEO />, appRoot);
 
 export default CopyNEO
