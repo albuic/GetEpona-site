@@ -17,7 +17,17 @@
 		// 	width: calc(50% - #{_size(element-margin)});
 		// 	margin-left: _size(element-margin);
 		// }
-
+		
+		.currency-name
+			{
+				padding:5px;
+				width: 30%;
+			}
+		.wallet-id
+			{
+				padding:5px;
+				width:60%;
+			}
 		.icons
 			li {
 				display: inline-block;

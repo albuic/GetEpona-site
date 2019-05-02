@@ -35,12 +35,12 @@ const Footer = (props) => (
             <p>
                 Leave us some Bitcoin, alts, even your shitcoins! Drop us a line in our Discord if you don't see a wallet of your preffered choice.
             </p> 
-            <ul>
+            <ul className="donations" style={{ listStyleType: "none" }} >
                 <li>
-                    <div>
+                    <div className="currency-name">
                         BTC
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="1LrufiuFTzn2ZzKsgdPH1K1AKZDenCeYrQ"/>
+                    <input className="wallet-id" type="text" readOnly="" value="1LrufiuFTzn2ZzKsgdPH1K1AKZDenCeYrQ"/>
                     {/* <button class="copy-button" type="button"></button>
                     <div>
                         class="notify-popup" style={{position: "absolute"};will-change:transorm;top:0px;left:0px;transform:translate3d(749px,999px,0px);" data-placement="top"}
@@ -51,74 +51,73 @@ const Footer = (props) => (
                     </div> */}
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                             BCH
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/>                    
+                    <input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/>                    
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         ETH
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                        
+                    <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                        
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         ETC
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="0x397cf3b5f19110bda7ecdfb1c7134770fdbdc487"/>                                            
+                    <input className="wallet-id" type="text" readOnly="" value="0x397cf3b5f19110bda7ecdfb1c7134770fdbdc487"/>                                            
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         LTC
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="LQqKv8mps5nP2DMHdThAnvJtNSdcSc3XJe"/>                                                                
+                    <input className="wallet-id" type="text" readOnly="" value="LQqKv8mps5nP2DMHdThAnvJtNSdcSc3XJe"/>                                                                
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         NEO
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="AKxoCE8YjP7jyQcDCxEXHuFvtWh74Km64g"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="AKxoCE8YjP7jyQcDCxEXHuFvtWh74Km64g"/>                                                                     
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         DOGE
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="DG7zCPmQYBue9rL1iHtugignX3cfJ2hb4c"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="DG7zCPmQYBue9rL1iHtugignX3cfJ2hb4c"/>                                                                     
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         Cardano ADA
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ"/>                                                                     
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         Augur REP
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
                     
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         Lisk
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="12320849510539754337L"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="12320849510539754337L"/>                                                                     
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         TRON TRX
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="TB3QGqV5qEPFxoN6gM8iFj3VoM19UiyMTc"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="TB3QGqV5qEPFxoN6gM8iFj3VoM19UiyMTc"/>                                                                     
                 </li>
                 <li>
-                    <div>
+                    <div className="currency-name">
                         BAT
                     </div>
-                    <input class="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
+                    <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
                 </li>
             </ul>             
-                     
         </div>
            
         <div class="column">
