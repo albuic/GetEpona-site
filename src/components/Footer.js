@@ -2,8 +2,20 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Nav from './Nav'
 import DiscordBot from './DiscordBot'
+import CopyBTC from './Copy/CopyBTC'
+import CopyBCH from './Copy/CopyBCH'
+import CopyETH from './Copy/CopyETH'
+import CopyETC from './Copy/CopyETC'
+import CopyLTC from './Copy/CopyLTC'
+import CopyNEO from './Copy/CopyNEO'
+import CopyDOGE from './Copy/CopyDOGE'
+import CopyADA from './Copy/CopyADA'
+import CopyREP from './Copy/CopyREP'
+import CopyLSK from './Copy/CopyLSK'
+import CopyTRX from './Copy/CopyTRX'
+import CopyBAT from './Copy/CopyBAT'
 
-import WidgetBot from '@widgetbot/react-embed'
+//import WidgetBot from '@widgetbot/react-embed'
 import GitHubButton from 'react-github-btn'
 
 import matrix from '../assets/images/matrix.png';
@@ -41,6 +53,7 @@ const Footer = (props) => (
                         BTC
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="1LrufiuFTzn2ZzKsgdPH1K1AKZDenCeYrQ"/>
+                    <CopyBTC/>
                     {/* <button class="copy-button" type="button"></button>
                     <div>
                         class="notify-popup" style={{position: "absolute"};will-change:transorm;top:0px;left:0px;transform:translate3d(749px,999px,0px);" data-placement="top"}
@@ -55,67 +68,77 @@ const Footer = (props) => (
                             BCH
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/>                    
+                    <CopyBCH/>
                 </li>
                 <li>
                     <div className="currency-name">
                         ETH
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                        
+                    <CopyETH/>
                 </li>
                 <li>
                     <div className="currency-name">
                         ETC
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="0x397cf3b5f19110bda7ecdfb1c7134770fdbdc487"/>                                            
+                    <CopyETC/>
                 </li>
                 <li>
                     <div className="currency-name">
                         LTC
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="LQqKv8mps5nP2DMHdThAnvJtNSdcSc3XJe"/>                                                                
+                    <CopyLTC/>
                 </li>
                 <li>
                     <div className="currency-name">
                         NEO
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="AKxoCE8YjP7jyQcDCxEXHuFvtWh74Km64g"/>                                                                     
+                    <CopyNEO/>
                 </li>
                 <li>
                     <div className="currency-name">
                         DOGE
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="DG7zCPmQYBue9rL1iHtugignX3cfJ2hb4c"/>                                                                     
+                    <CopyDOGE/>
                 </li>
                 <li>
                     <div className="currency-name">
                         Cardano ADA
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ"/>                                                                     
+                    <CopyADA/>
                 </li>
                 <li>
                     <div className="currency-name">
                         Augur REP
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
-                    
+                    <CopyREP/>
                 </li>
                 <li>
                     <div className="currency-name">
                         Lisk
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="12320849510539754337L"/>                                                                     
+                    <CopyLSK/>
                 </li>
                 <li>
                     <div className="currency-name">
                         TRON TRX
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="TB3QGqV5qEPFxoN6gM8iFj3VoM19UiyMTc"/>                                                                     
+                    <CopyTRX/>
                 </li>
                 <li>
                     <div className="currency-name">
                         BAT
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
+                    <CopyBAT/>
                 </li>
             </ul>             
         </div>

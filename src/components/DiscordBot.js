@@ -6,7 +6,8 @@ const DiscordBot = (props) => (
 <WidgetBot
         server="475789330380488707"
         channel="509533264206233610"
-        shard="https://cl1.widgetbot.io"
+        shard="https://disweb.deploys.io"
+       // shard="https://cl1.widgetbot.io"
         height="800"
         width="450"
         onAPI={api => {
