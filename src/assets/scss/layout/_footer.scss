@@ -33,8 +33,14 @@
 		.currency-table-cell
 			{
 				padding:6px;
-								vertical-align: middle;
+				vertical-align: middle;
 				display: table-cell;
+				input {
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					border-radius: 5px;
+						
+				}
 			}
 		.wallet-id
 			{

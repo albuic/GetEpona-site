@@ -49,12 +49,24 @@ const Footer = (props) => (
             </p> 
             <ul className="donations" style={{ listStyleType: "none" }} >
                 <li>
-                    <div className="currency-name">
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            BTC
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="1LrufiuFTzn2ZzKsgdPH1K1AKZDenCeYrQ"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyBTC/>
+                        </div>
+                    </div>
+                   
+                   {/* <div className="currency-name">
                         BTC
                     </div>
                     <input className="wallet-id" type="text" readOnly="" value="1LrufiuFTzn2ZzKsgdPH1K1AKZDenCeYrQ"/>
                     <CopyBTC/>
-                    {/* <button class="copy-button" type="button"></button>
+                     <button class="copy-button" type="button"></button>
                     <div>
                         class="notify-popup" style={{position: "absolute"};will-change:transorm;top:0px;left:0px;transform:translate3d(749px,999px,0px);" data-placement="top"}
                         Copied
@@ -63,80 +75,151 @@ const Footer = (props) => (
                         </div>
                     </div> */}
                 </li>
+                <li>
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            BCH
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyBCH/>
+                        </div>
+                    </div>
+                </li> 
+                <li>
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            ETH
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyETH/>
+                        </div>
+                    </div>
+                </li>
+                <li>
                 
-               
+                <div className="currency-block">
+                            <div className="currency-table-cell">
+                                ETC
+                            </div>
+                            <div className="currency-table-cell">
+                                <input className="wallet-id" type="text" readOnly="" value="0x397cf3b5f19110bda7ecdfb1c7134770fdbdc487"/>
+                            </div>
+                            <div className="currency-table-cell">
+                                <CopyETC/>
+                            </div>
+                        </div>
+                </li>
+                <li>
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            LTC
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="LQqKv8mps5nP2DMHdThAnvJtNSdcSc3XJe"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyLTC/>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li>
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            NEO
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="AKxoCE8YjP7jyQcDCxEXHuFvtWh74Km64g"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyNEO/>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            DOGE
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="DG7zCPmQYBue9rL1iHtugignX3cfJ2hb4c"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyDOGE/>
+                        </div>
+                    </div>
 
-
-
-                <li>
-                    <div className="currency-name">
-                        ETH
-                    </div>
-                    <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                        
-                    <CopyETH/>
                 </li>
                 <li>
-                    <div className="currency-name">
-                        ETC
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            Cardano ADA
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyADA/>
+                        </div>
                     </div>
-                    <input className="wallet-id" type="text" readOnly="" value="0x397cf3b5f19110bda7ecdfb1c7134770fdbdc487"/>                                            
-                    <CopyETC/>
                 </li>
                 <li>
-                    <div className="currency-name">
-                        LTC
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            Augur REP                        
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyREP/>
+                        </div>
                     </div>
-                    <input className="wallet-id" type="text" readOnly="" value="LQqKv8mps5nP2DMHdThAnvJtNSdcSc3XJe"/>                                                                
-                    <CopyLTC/>
                 </li>
                 <li>
-                    <div className="currency-name">
-                        NEO
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            Lisk                        
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="12320849510539754337L"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyLSK/>
+                        </div>
                     </div>
-                    <input className="wallet-id" type="text" readOnly="" value="AKxoCE8YjP7jyQcDCxEXHuFvtWh74Km64g"/>                                                                     
-                    <CopyNEO/>
                 </li>
                 <li>
-                    <div className="currency-name">
-                        DOGE
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            Tron TRX                        
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="TB3QGqV5qEPFxoN6gM8iFj3VoM19UiyMTc"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyTRX/>
+                        </div>
                     </div>
-                    <input className="wallet-id" type="text" readOnly="" value="DG7zCPmQYBue9rL1iHtugignX3cfJ2hb4c"/>                                                                     
-                    <CopyDOGE/>
                 </li>
                 <li>
-                    <div className="currency-name">
-                        Cardano ADA
+                    <div className="currency-block">
+                        <div className="currency-table-cell">
+                            BAT                        
+                        </div>
+                        <div className="currency-table-cell">
+                            <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>
+                        </div>
+                        <div className="currency-table-cell">
+                            <CopyBAT/>
+                        </div>
                     </div>
-                    <input className="wallet-id" type="text" readOnly="" value="DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ"/>                                                                     
-                    <CopyADA/>
-                </li>
-                <li>
-                    <div className="currency-name">
-                        Augur REP
-                    </div>
-                    <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
-                    <CopyREP/>
-                </li>
-                <li>
-                    <div className="currency-name">
-                        Lisk
-                    </div>
-                    <input className="wallet-id" type="text" readOnly="" value="12320849510539754337L"/>                                                                     
-                    <CopyLSK/>
-                </li>
-                <li>
-                    <div className="currency-name">
-                        TRON TRX
-                    </div>
-                    <input className="wallet-id" type="text" readOnly="" value="TB3QGqV5qEPFxoN6gM8iFj3VoM19UiyMTc"/>                                                                     
-                    <CopyTRX/>
-                </li>
-                <li>
-                    <div className="currency-name">
-                        BAT
-                    </div>
-                    <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>                                                                     
-                    <CopyBAT/>
                 </li>
             </ul>             
         </div>
@@ -172,11 +255,12 @@ const Footer = (props) => (
      
         <p className="copyright" align="center">&copy; 2019 Epona</p>
 
-<div className="currency-block">
-<div className="currency-table-cell">BCH</div>
-<div className="currency-table-cell"><input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/></div>
-<div className="currency-table-cell"><CopyBCH/></div>
-</div>
+{/* <div className="currency-block">
+    <div className="currency-table-cell">BCH</div>
+    <div className="currency-table-cell">
+        <input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/></div>
+    <div className="currency-table-cell"><CopyBCH/></div>
+</div> */}
 
 </footer>
 )
