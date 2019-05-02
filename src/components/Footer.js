@@ -59,17 +59,15 @@ const Footer = (props) => (
                         class="notify-popup" style={{position: "absolute"};will-change:transorm;top:0px;left:0px;transform:translate3d(749px,999px,0px);" data-placement="top"}
                         Copied
                         <div class="arrow" style="left:24px;">
-                                ::before
+ 
                         </div>
                     </div> */}
                 </li>
-                <li>
-                    <div className="currency-name">
-                            BCH
-                    </div>
-                    <input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/>                    
-                    <CopyBCH/>
-                </li>
+                
+               
+
+
+
                 <li>
                     <div className="currency-name">
                         ETH
@@ -173,6 +171,13 @@ const Footer = (props) => (
                     </ul> */}
      
         <p className="copyright" align="center">&copy; 2019 Epona</p>
+
+<div className="currency-block">
+<div className="currency-table-cell">BCH</div>
+<div className="currency-table-cell"><input className="wallet-id" type="text" readOnly="" value="192PJCrtvP7UPFpX9ZCcti2mVD6PViw3o2"/></div>
+<div className="currency-table-cell"><CopyBCH/></div>
+</div>
+
 </footer>
 )
 
