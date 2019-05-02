@@ -24,7 +24,7 @@ class CopyBTC extends React.Component {
  
         <CopyToClipboard text={this.state.value}
           onCopy={() => this.setState({copied: true})}>
-          <button style={{padding:0}}><img src={copy} alt="copy" width= "16" height="16"/></button>
+          <button min-width="1rem"><img src={copy} alt="copy" width= "16px" height="16px"/></button>
         </CopyToClipboard>
  
         {this.state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}
