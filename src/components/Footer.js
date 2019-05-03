@@ -225,17 +225,30 @@ const Footer = (props) => (
         </div>
            
         <div class="column">
-            <ul className="icons"style={{ listStyleType: "none" }} align="center">
-                {/* <li><img src={github} alt="Github" width= "24" height="24"/> <a href="https://github.com/GetEpona/GetEpona-site/tree/master">GitHub</a></li> */}
-                <li><img src={matrix} alt="Matrix" width= "24" height="24"/> <a href="https://riot.im/app/#/room/#epona:getepona.com">Matrix</a></li>
-                <li><img src={irc} alt="IRC" width= "24" height="24"/> <a href="irc://freenode/epona">IRC</a></li>
-                <li><img src={discord} alt="Discord" width= "24" height="24"/> <a href="https://discord.gg/DrPFqa2">Discord</a></li>
-            </ul>
-             <DiscordBot/>  
-
+           
+             {/* <DiscordBot/>   */}
+             <div id="blog">
+                <h2>
+                    Blog Posts
+                </h2> 
+                <p>
+                    <a href="https://gateway.textile.cafe/ipfs/QmeWjHefCULsLe6qX516PWY6sBp4C7pKfV39zbQRGiMumN#QmY8qZmp33oN7SF6b96iwiz7AT7pjUuWM1gam4H3gTja6B&22xAZoLcZ7zYeR9Gys17y1v8VbH8ZtX4dwb2JrmDbPEWZzACK9HXFj3yhC6eR">
+                    Creating a simpler stack for the DWeb, without Blockchain
+                    </a>
+                 </p>
+            </div> 
+                <h2>
+                    Chat with us!
+                </h2>
+                <ul className="icons"style={{ listStyleType: "none" }} align="center">
+                    {/* <li><img src={github} alt="Github" width= "24" height="24"/> <a href="https://github.com/GetEpona/GetEpona-site/tree/master">GitHub</a></li> */}
+                    <li><img src={matrix} alt="Matrix" width= "24" height="24"/> <a href="https://riot.im/app/#/room/#epona:getepona.com">Matrix</a></li>
+                    <li><img src={irc} alt="IRC" width= "24" height="24"/> <a href="irc://freenode/epona">IRC</a></li>
+                    <li><img src={discord} alt="Discord" width= "24" height="24"/> <a href="https://discord.gg/DrPFqa2">Discord</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-                 
+              
         {/*         
                     <dl className="alt">
                         <dt>Address</dt>
@@ -253,7 +266,7 @@ const Footer = (props) => (
                         <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
                     </ul> */}
      
-        <p className="copyright" align="center">&copy; 2019 Epona</p>
+    <p className="copyright" align="center">&copy; 2019 Epona</p>
 
 {/* <div className="currency-block">
     <div className="currency-table-cell">BCH</div>

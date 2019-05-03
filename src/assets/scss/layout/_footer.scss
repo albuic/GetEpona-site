@@ -17,6 +17,19 @@
 		// 	width: calc(50% - #{_size(element-margin)});
 		// 	margin-left: _size(element-margin);
 		// }
+		.chat
+		div	
+			{
+				vertical-align: top;
+				display: inline-block
+			}
+
+		.blog
+			h1 {
+				margin: 0 0 (_size(element-margin) * 1.5) 0;
+				
+			}
+
 		.donations
 			ul {
 				@include vendor('display', 'flex');
@@ -45,7 +58,7 @@
 		.wallet-id
 			{
 				padding:6px;
-								vertical-align: middle;
+				vertical-align: middle;
 				width:150px;
 				height:20px;
 			}
