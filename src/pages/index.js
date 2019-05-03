@@ -117,8 +117,8 @@ class Index extends React.Component {
 
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Download</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                {/* <li><Link to="/generic" className="button special">Download</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li> */}
               </ul>
             </footer>
           </section>
@@ -150,8 +150,8 @@ class Index extends React.Component {
             </div>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Download</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                {/* <li><Link to="/generic" className="button special">Download</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li> */}
               </ul>
             </footer>
           </section>
@@ -251,8 +251,8 @@ Want to host your own node like it’s nobody’s business? You can.</p>
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Download</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                {/* <li><Link to="/generic" className="button special">Download</Link></li>
+                <li><Link to="/generic" className="button">Learn More</Link></li> */}
               </ul>
             </footer>
           </section>

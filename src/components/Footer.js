@@ -159,7 +159,7 @@ const Footer = (props) => (
                 <li>
                     <div className="currency-block">
                         <div className="currency-table-cell">
-                            Cardano ADA
+                            ADA
                         </div>
                         <div className="currency-table-cell">
                             <input className="wallet-id" type="text" readOnly="" value="DdzFFzCqrht2CsRqSYPvR9Mw3L2sPMgGx44CHDjLxSuQzrnw628AXiB42uiGJ1sPxTKW6352ZGBS9RG3RtzeDF6wWbTu2n6jEvF9CMdZ"/>
@@ -172,7 +172,7 @@ const Footer = (props) => (
                 <li>
                     <div className="currency-block">
                         <div className="currency-table-cell">
-                            Augur REP                        
+                           REP                        
                         </div>
                         <div className="currency-table-cell">
                             <input className="wallet-id" type="text" readOnly="" value="0x75d60297fc0b42492a3d99700db770b547c74617"/>
@@ -185,7 +185,7 @@ const Footer = (props) => (
                 <li>
                     <div className="currency-block">
                         <div className="currency-table-cell">
-                            Lisk                        
+                            LSK                        
                         </div>
                         <div className="currency-table-cell">
                             <input className="wallet-id" type="text" readOnly="" value="12320849510539754337L"/>
@@ -198,7 +198,7 @@ const Footer = (props) => (
                 <li>
                     <div className="currency-block">
                         <div className="currency-table-cell">
-                            Tron TRX                        
+                            TRX                        
                         </div>
                         <div className="currency-table-cell">
                             <input className="wallet-id" type="text" readOnly="" value="TB3QGqV5qEPFxoN6gM8iFj3VoM19UiyMTc"/>
