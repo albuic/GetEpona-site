@@ -225,7 +225,7 @@ Want to host your own node like it’s nobody’s business? You can.</p>
                 {/* <span className="icon major style5 fa-diamond"></span> */}
                 <h3>Self-Hosted</h3>
                 <p>
-                  Epona runs on a series of self-hosted nodes. Anyone an be a
+                  Epona runs on a series of self-hosted nodes. Anyone can be a
                   server. You are the platform.
                 </p>
               </li>
